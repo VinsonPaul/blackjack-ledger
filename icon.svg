@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#143a25"/>
+      <stop offset="100%" stop-color="#061410"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0c560"/>
+      <stop offset="100%" stop-color="#d4a84b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- subtle dot pattern -->
+  <g fill="#d4a84b" opacity="0.08">
+    <circle cx="80" cy="80" r="2"/><circle cx="160" cy="80" r="2"/><circle cx="240" cy="80" r="2"/><circle cx="320" cy="80" r="2"/><circle cx="400" cy="80" r="2"/>
+    <circle cx="80" cy="160" r="2"/><circle cx="160" cy="160" r="2"/><circle cx="240" cy="160" r="2"/><circle cx="320" cy="160" r="2"/><circle cx="400" cy="160" r="2"/>
+    <circle cx="80" cy="240" r="2"/><circle cx="160" cy="240" r="2"/><circle cx="240" cy="240" r="2"/><circle cx="320" cy="240" r="2"/><circle cx="400" cy="240" r="2"/>
+    <circle cx="80" cy="320" r="2"/><circle cx="160" cy="320" r="2"/><circle cx="240" cy="320" r="2"/><circle cx="320" cy="320" r="2"/><circle cx="400" cy="320" r="2"/>
+    <circle cx="80" cy="400" r="2"/><circle cx="160" cy="400" r="2"/><circle cx="240" cy="400" r="2"/><circle cx="320" cy="400" r="2"/><circle cx="400" cy="400" r="2"/>
+  </g>
+  <!-- The big A like in the header -->
+  <text x="256" y="345"
+        font-family="Georgia, serif"
+        font-style="italic"
+        font-weight="900"
+        font-size="320"
+        text-anchor="middle"
+        fill="url(#gold)"
+        transform="rotate(-6 256 280)">A</text>
+  <!-- Suit pip in the corner -->
+  <text x="380" y="430"
+        font-family="Arial, sans-serif"
+        font-size="60"
+        text-anchor="middle"
+        fill="#f5ecd7"
+        opacity="0.5">♠</text>
+</svg>
